@@ -9,7 +9,6 @@
  *       * Return: pointer to the new root node of the
  *        * tree after removing the desired value, and after rebalancing
  */
-
 avl_t *avl_remove(avl_t *root, int value)
 {
 	return (root);
