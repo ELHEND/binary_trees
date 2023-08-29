@@ -18,7 +18,7 @@ int compare_depth(const binary_tree_t *tree)
 /**
  *  * binary_tree_is_perfect - function that checks if a binary tree is perfect
  *   *
- *    * @tree: pointer to  root node of the tree to check
+ *    * @tree: pointer to  root node of tree to check
  *
  *     * Return: 0
  */
