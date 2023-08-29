@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-
 heap_t *heap_r(heap_t *new, heap_t *parent);
 size_tp_t *heap_r(heap_t *new, heap_t *parent);
 heap_t *heap_nf(heap_t *root, size_t number);
