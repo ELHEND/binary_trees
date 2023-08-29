@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 /**
  *  * min_finder - Finds the minimum root
- *   * @root: pointer to the tree
+ *   * @root: pointer to  tree
+ *
  *    * Return: the min number
  */
 
@@ -15,7 +16,8 @@ bst_t *min_finder(bst_t *root)
 /**
  *  * bst_remove - removes a node from a Binary Search Tree
  *   *
- *    * @root: pointer to the root node of the tree where you will remove a node
+ *    * @root: pointer to the root node of
+ *    tree where you will remove a node
  *     * @value: value to remove in the tree
  *      * Return: pointer to the new root node of the tree
  *       * after removing the desired value
