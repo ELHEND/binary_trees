@@ -2,6 +2,7 @@
 
 /**
  *  * binary_tree_rotate_right -  rotation on a tree
+ *
  *   * @tree: Pointer to
  *    *
  *     * Return: Pointer
