@@ -4,7 +4,7 @@
  *  * binary_tree_is_leaf - checks if a node is a leaf
  *   *
  *    * @node: pointer to  node to check
- *     * Return: 1 if node is a leaf, otherwise 0
+ *     * Return: 1 if node is  leaf, otherwise 0
  *
  *      * If node is NULL, return 0
  */
