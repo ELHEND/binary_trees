@@ -2,6 +2,7 @@
 
 /**
  *  * binary_tree_rotate_left -  a left rotation
+ *
  *   * @tree: Pointerroot
  *    *
  *     * Return: Pointer  root
