@@ -3,6 +3,7 @@
 /**
  *  * binary_tree_height_aux -  a tree
  *   * @tree: Pointer to
+ *
  *    * Return: Trees
  */
 
@@ -25,7 +26,8 @@ size_t	binary_tree_height_aux(const binary_tree_t *tree)
 /**
  *  * print_level_order - print each
  *   * @tree: pointer to thse
- *    * @level: level of the tree
+ *
+ *    * @level: level of  tree
  *     * @func: pointer to a  node
  *      * Return: void
  */
@@ -47,7 +49,8 @@ void print_level_order(const binary_tree_t *tree, int level, void (*func)(int))
 /**
  *  * binary_tree_levelorder - function that goes through a
  *   * binary tree using level-order traversal
- *    * @tree: pointer to the root node of the tree to traverse
+ *    * @tree: pointer to  root node of the tree to traverse
+ *
  *     * @func: pointer to a function to call for each node
  *      * Return: void
  */
