@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- *  * binary_trees_ancestor - Finds the lowes
+ *  * binary_trees_ancestor - Finds lowes
  *   * @first: Pointer
  *    * @second: Pointer
  *     *
