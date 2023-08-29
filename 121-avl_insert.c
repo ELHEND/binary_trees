@@ -38,7 +38,8 @@ avl_t *avl_insert(avl_t **tree, int value)
  *      * @new: A double pointer to store the new node.
  *       * @value: The value to insert into the AVL tree.
  *        *
- *         * Return: A pointer to  new root after insertion, or NULL on failure.
+ *         * Return: A pointer to  new root after
+ *         insertion, or NULL on failure.
  */
 
 avl_t *avl_insert_recursive(avl_t **tree, avl_t *parent,
