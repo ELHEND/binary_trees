@@ -19,10 +19,11 @@ int count_nodes(binary_tree_t *root)
 /**
  *  * is_complete - Checks if a tree is complete
  *   * @root: Pointer to tree's root
- *    * @index: Index of the node been evaluated
+ *    * @index: Index of node been evaluated
+ *
  *     * @n: number of trees nod
  *      *
- *       * Return: 1 if the tree is a heap, 0 otherwise
+ *       * Return: 1 if  tree is a heap, 0 otherwise
  */
 
 int is_complete(binary_tree_t *root, int index, int n)
