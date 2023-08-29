@@ -5,6 +5,7 @@
  *   *
  *    * @array: pointer to array
  *     * @first_index: sub array initial index
+ *
  *      * @final_index: sub array end index
  *       * Return: pointer to root
  */
@@ -36,9 +37,10 @@ avl_t *sorted_array_to_avl_revursive(int *array, int first_index,
 /**
  *  * sorted_array_to_avl - builds an AVL tree from an array
  *   *
- *    * @array: pointer to the first element of the array to be converted
+ *    * @array: pointer to first element of the array to be converted
  *     * @size: number of element in the array
- *      * Return: pointer to the root node of the created AVL tree
+ *
+ *      * Return: pointer to  root node of the created AVL tree
  *       * or NULL on failure
  */
 
