@@ -1,17 +1,15 @@
 #include "binary_trees.h"
-heap_t *heap_r(heap_t *new, heap_t *parent);
-size_tp_t *heap_r(heap_t *new, heap_t *parent);
+size_t bts(const binary_tree_t *tree);
 heap_t *heap_nf(heap_t *root, size_t number);
+heap_t *heap_r(heap_t *new, heap_t *parent);
 
 /**
  *  * heap_insert - heap inserter
  *   *
  *    * @tree: double pointer to root
- *
- *     * @value: the value to store
+ *     * @value: value to store
  *      * Return: pointer to the created node
  */
-
 heap_t *heap_insert(heap_t **tree, int value)
 {
 	size_t size;
@@ -53,7 +51,7 @@ heap_t *heap_insert(heap_t **tree, int value)
 }
 
 /**
- *  * bts - measure  tree
+ *  * bts - measure the tree
  *   *
  *    * @tree: pointer to root
  *     * Return: size, otherwise 0
@@ -70,8 +68,8 @@ size_t bts(const binary_tree_t *tree)
  *  * heap_nf - heap node finder
  *   *
  *    * @root: pointer to  root
- *     * @number: index of  node to find
  *
+ *     * @number: index of node to find
  *      * Return: pointer to the node
  */
 
@@ -92,12 +90,11 @@ heap_t *heap_nf(heap_t *root, size_t number)
 
 /**
  *  * heap_r - heap rebalancer
- *   * @new: pointer to new node
+ *   * @new: pointer to the new node
  *
- *    * @parent: pointer to the new parent
+ *    * @parent: pointer to new parent
  *     * Return: parent
  */
-
 heap_t *heap_r(heap_t *new, heap_t *parent)
 {
 	int tmp;
