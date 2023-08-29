@@ -10,7 +10,8 @@ bst_t *bst_remove(bst_t *root, int value);
 /**
  *  * avl_remove - Removes a node from an AVL tree.
  *   *
- *    * @root: A pointer to the root node of the tree for removing a node.
+ *    * @root: A pointer to  root node of the tree for removing a node.
+ *
  *     * @value: The value to remove in the tree.
  *      *
  *       * Return: A pointer to the new root node of the tree after
@@ -107,7 +108,7 @@ int remove_type(bst_t *root)
 
 /**
  *  * successor - Get the next successor
- *  i mean the min node in the right subtree.
+ *  i mean the min node in right subtree.
  *   *
  *    * @node: Tree to check.
  *     *
@@ -133,7 +134,7 @@ int successor(bst_t *node)
 }
 
 /**
- *  * bal - Measures balance factor of a AVL.
+ *  * bal - Measures balance factor of  AVL.
  *   *
  *    * @tree: Tree to go through.
  *     *
