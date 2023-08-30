@@ -4,6 +4,7 @@
  *  * binary_tree_height_balance - measures
  *  the balance factor of a binary tree
  *   * @tree: pointer to  root node of the
+ *
  *   tree to measure the balance factor
  *
  *    *
