@@ -8,7 +8,7 @@
  *
  *     * @value: value to store in new node
  *
- *      * Return: a pointer to  created node,
+ *      * Return: pointer to  created node,
  *       *	or NULL on failure or if parent is NULL
  */
 
