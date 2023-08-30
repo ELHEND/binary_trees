@@ -5,7 +5,7 @@
  *   *
  *    * @tree: If tree is NULL,  function must return 0
  *
- *     * Return: A NULL pointer is not a leaf
+ *     * Return: A NULL pointer is not leaf
  */
 
 
