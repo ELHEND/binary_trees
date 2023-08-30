@@ -5,6 +5,7 @@
  *  a binary tree using pre-order traversal
  *   *
  *    * @tree: pointer to the root node of the tree to traverse
+ *
  *     * @func: pointer to  function to call for each node.
  *
  *      *  value in  node must be passed as a parameter to this function.
