@@ -3,7 +3,7 @@
 /**
  *  * binary_tree_postorder - goes through
  *  binary tree using post-order traversal
- *   * @tree: pointer to root node of the tree to traverse
+ *   * @tree: pointer to root node of  tree to traverse
  *    * @func: pointer to a function to call for each node.
  *     * The value in  node must be passed as a parameter to this function.
  *
