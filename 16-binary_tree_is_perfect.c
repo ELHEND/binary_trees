@@ -4,6 +4,7 @@
  *  * compare_depth - compare size
  *   *
  *    * @tree: pointer to  root
+ *
  *     * Return: size
  */
 
