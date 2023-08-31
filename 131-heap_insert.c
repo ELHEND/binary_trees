@@ -7,6 +7,7 @@ heap_t *heap_r(heap_t *new, heap_t *parent);
  *  * heap_insert - heap inserter
  *   *
  *    * @tree: double pointer to root
+ *
  *     * @value: value to store
  *      * Return: pointer to the created node
  */
