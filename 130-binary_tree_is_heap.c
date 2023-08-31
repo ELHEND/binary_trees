@@ -24,7 +24,7 @@ int binary_tree_is_heap(const binary_tree_t *tree)
 }
 
 /**
- *  * check_parent - Checks if parent has a greater value than its childs.
+ *  * check_parent - Checks if parent has  greater value than its childs.
  *   *
  *    * @tree: A pointer to  node.
  *     *
