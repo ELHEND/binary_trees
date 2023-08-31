@@ -7,7 +7,7 @@
  *
  *     * @size: number of elements in  array
  *
- *      * Return: pointer to the root node of the created Binary Heap,
+ *      * Return: pointer to root node of the created Binary Heap,
  *
  *       * or NULL on failure
  */
